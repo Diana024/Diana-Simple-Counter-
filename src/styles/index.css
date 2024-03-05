@@ -10,3 +10,9 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    --bs-bg-secondary-opacity: -10;
+    font-family: serif;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
